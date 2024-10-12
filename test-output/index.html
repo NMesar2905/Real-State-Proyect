@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\nicolas.mesa\AppData\Local\Temp\testng-eclipse--1074891866\testng-customsuite.xml</span>
+                    <span>C:\Users\nicolas.mesa\AppData\Local\Temp\testng-eclipse--1242875963\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -129,15 +129,15 @@
                   <a name="realStateScraping">
                   </a> <!-- realStateScraping -->
                   <span class="method-name">realStateScraping</span>
-                  <div class="stack-trace">org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools
-  (failed to check if window was closed: disconnected: not connected to DevTools)
+                  <div class="stack-trace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
   (Session info: chrome=129.0.6668.101)
 Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
 System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.9&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [36134298c51ffc20ec79efada066e38f, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\NICOLA~1.MES\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51364}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51364/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 36134298c51ffc20ec79efada066e38f
+Command: [7b5156920084119d323628ae3348be02, close {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\NICOLA~1.MES\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56117}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56117/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7b5156920084119d323628ae3348be02
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -153,7 +153,7 @@ Session ID: 36134298c51ffc20ec79efada066e38f
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
 	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:405)
-	at com.real.state.pageclases.ResultPage.closeWindow(ResultPage.java:58)
+	at com.real.state.pageclases.ResultPage.closeWindow(ResultPage.java:168)
 	at com.real.state.pageclases.HomePage.primerResultado(HomePage.java:66)
 	at com.real.state.testclases.MetroCuadradoTests.realStateScraping(MetroCuadradoTests.java:34)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -193,7 +193,7 @@ Session ID: 36134298c51ffc20ec79efada066e38f
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\nicolas.mesa\AppData\Local\Temp\testng-eclipse--1074891866\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\nicolas.mesa\AppData\Local\Temp\testng-eclipse--1242875963\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -246,12 +246,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'realStateScraping')
 data.setCell(0, 2, 'com.real.state.testclases.MetroCuadradoTests')
-data.setCell(0, 3, 22513);
+data.setCell(0, 3, 158175);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -288,7 +288,7 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">flushReports</span>
-                <span class="method-start">22518 ms</span>
+                <span class="method-start">158183 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
