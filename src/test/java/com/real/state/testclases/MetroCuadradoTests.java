@@ -31,7 +31,7 @@ public class MetroCuadradoTests extends BaseTest {
 		BasePage pageBase = new BasePage(driver, logger);
 		PageFactory.initElements(driver, pageBase);
 		homePage = pageBase.openApplication();
-		homePage.primerResultado();
+		homePage.startScraping();
 	}
 	
 	
